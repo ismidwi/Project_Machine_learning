@@ -14,6 +14,7 @@ Dataset dapat diunduh melalui link berikut:
 https://drive.google.com/drive/folders/1XiYvd60C28ScQUQ5ImLUEp4iERVZCrez
 
 ### Struktur Dataset
+```
 ODIR-5K/
 │
 ├── Training Images/               # Citra retina untuk proses training
@@ -34,6 +35,7 @@ ODIR-5K/
 ├── test_predictions_final.csv      # File prediksi baseline dari dataset ODIR
 │
 └── data.xlsx                       # Informasi pasien dan label kondisi mata
+```
 
 ### Kelas Label
 - `0` — Normal  
