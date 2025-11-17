@@ -16,24 +16,24 @@ https://drive.google.com/drive/folders/1XiYvd60C28ScQUQ5ImLUEp4iERVZCrez
 ### Struktur Dataset
 ODIR-5K/
 │
-├── Training Images/             # Citra retina untuk proses training
-│     ├── xxx_left.jpg
-│     ├── xxx_right.jpg
-│     └── ...
+├── Training Images/               # Citra retina untuk proses training
+│   ├── xxx_left.jpg
+│   ├── xxx_right.jpg
+│   └── ...
 │
-├── Testing Images/              # Citra retina untuk proses testing
-│     ├── yyy_left.jpg
-│     ├── yyy_right.jpg
-│     └── ...
+├── Testing Images/                # Citra retina untuk proses testing
+│   ├── yyy_left.jpg
+│   ├── yyy_right.jpg
+│   └── ...
 │
-├── dataset_labeled/             # Versi dataset yang sudah dipisah berdasarkan label
-│     ├── cataract/
-│     ├── normal/
-│     └── ...
+├── dataset_labeled/               # Versi dataset yang sudah dipisah berdasarkan label
+│   ├── cataract/
+│   ├── normal/
+│   └── ...
 │
-├── test_predictions_final.csv   # File prediksi baseline dari dataset ODIR
+├── test_predictions_final.csv      # File prediksi baseline dari dataset ODIR
 │
-└── data.xlsx                    # Informasi pasien dan label kondisi mata
+└── data.xlsx                       # Informasi pasien dan label kondisi mata
 
 ### Kelas Label
 - `0` — Normal  
